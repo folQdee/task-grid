@@ -1,0 +1,10 @@
+/node_modules
+/src/__image_snapshots__/__diff_output__
+.DS_STORE
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
