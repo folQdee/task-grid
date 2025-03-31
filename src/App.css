@@ -4,3 +4,17 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.grid-container {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 200px 1fr;
+    /* background-color: #DAA520; */
+}
+
+.grid-container div{
+    background-color: #DAA520;
+}
